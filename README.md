@@ -6,22 +6,22 @@
 <img width="346" alt="스크린샷 2021-12-15 오후 5 45 26" src="https://user-images.githubusercontent.com/26237035/146153455-b6455375-65d9-4c83-bac5-affd4eaceb4e.png">
 
 ## RestAPI
-- GET /productCategories 
+- GET /product-categories 
 > 모든 상품카테고리를 조회한다.
 
-- GET /productCategories/{productCategoryCode}
+- GET /product-categories/{productCategoryCode}
 > `{productCategory}`에 해당하는 상품카테고리를 조회한다. 하위 항목이 있는 경우 포함하여 반환한다.
 
-- POST /productCategories
+- POST /product-categories
 > 최상위 상품카테고리를 등록한다.
 
-- POST /productCategories/{productCategoryCode}
+- POST /product-categories/{productCategoryCode}
 > `{productCategoryCode}`에 해당하는 상품카테고리의 하위 카테고리를 등록한다.
 
-- PUT /productCategories/{productCategoryCode}
+- PUT /product-categories/{productCategoryCode}
 > `{productCategoryCode}`에 해당하는 상품카테고리를 수정한다.
 
-- DELETE /productCategories/{productCategoryCode}
+- DELETE /product-categories/{productCategoryCode}
 > `{productCategoryCode}`에 해당하는 상품카테고리를 삭제한다. 하위 항목이 있는 경우 같이 삭제한다.
 
 ## 리눅스 환경 배포 과정
